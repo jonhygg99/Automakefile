@@ -1,5 +1,5 @@
 # Automakefile
-Create an automakefile in C, so in the case you're writing a program and you create a new file and you wanna fill it in the Makefile, you just need to call the function automakefile.sh
+Create an automakefile in C, so in the case you're writing a program and you create a new file and you wanna fill it in the Makefile, you only need to call the function automakefile.sh
 
 To execute ./automakefile.sh [EXECUTABLE_NAME] [LIBRARY]
 EXECUTABLE_NAME: name of the executable you want.
