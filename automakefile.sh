@@ -34,7 +34,3 @@ echo -e "\trm -fr \$(OBJ)\n" >> "Makefile"
 echo -e "fclean: clean" >> "Makefile"
 echo -e "\trm -fr \$(NAME)\n" >> "Makefile"
 echo -e "re: fclean all\c" >> "Makefile"
-TEST=$(make -C . re)
-TEST=$(echo $?)
-if [ TEST != 0 ]; then rm "Makefile"; echo "Makefile can't be compiled, check your arguments."; exit 84; fi
-TEST=$(make -C . fclean)
